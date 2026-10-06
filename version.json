@@ -1,6 +1,6 @@
 {
-  "latest": "1.9.38",
-  "updated": "2026-10-06 17:43",
+  "latest": "1.9.39",
+  "updated": "2026-10-06 18:45",
   "history": [
     {
       "version": "1.0.0",
@@ -15,6 +15,13 @@
       "files": 2,
       "note": "Situații ISJ Buzău 1.9.38: verificarea versiunii întâi pe GitHub, apoi în Drive; documentele lunare se trimit direct în Google Drive; butoanele SIIIR și Setări pe ecranul de start.",
       "folder": "releases/v1.9.38"
+    },
+    {
+      "version": "1.9.39",
+      "date": "2026-10-06 18:45",
+      "files": 2,
+      "note": "Situații ISJ Buzău 1.9.39: SIIIR și Setări deschid doar pagina lor, fără verificarea sesiunii; numai Transport Școlar verifică sesiunea; câmpuri noi din SIIIR (denumire unitate, tip formațiune, nume clasă), doar situație școlară deschisă; verificarea versiunii mai rapidă (Drive doar ca rezervă).",
+      "folder": "releases/v1.9.39"
     }
   ]
 }
