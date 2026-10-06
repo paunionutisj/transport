@@ -1,14 +1,7 @@
 {
-  "latest": "1.0.1",
-  "updated": "2026-10-06 14:48",
+  "latest": "1.0.0",
+  "updated": "2026-10-06 15:10",
   "history": [
-    {
-      "version": "1.0.1",
-      "date": "2026-10-06 14:48",
-      "files": 1,
-      "note": "test automat",
-      "folder": "releases/1.0.1"
-    },
     {
       "version": "1.0.0",
       "date": "2026-10-06 14:47",
