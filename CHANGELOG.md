@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.9.41 - 2026-10-06 21:38
+- Modulul Burse (lângă Transport Școlar) cu meniul Burse → Tip bursă: tipurile de bursă preluate din tabelul ISJ și păstrate în baza de date. În SIIIR, butonul 
+- Executabil: release v1.9.41 (Situatii_ISJ_Buzau.exe, SHA-256 1d780dc5aa48252abb537833dddce714964e6141ac41e68033c7ee5d56f0f57c)
+
 ## v1.9.40 - 2026-10-06 20:00
 - Meniul Transport Școlar păstrează numai grupul Transport Județean (Elevi și Setări se deschid din butoanele SIIIR și Setări). Bara de jos arată unde se caută actualizarea: pe GitHub sau, dacă GitHub nu răspunde, în Google Drive.
 - Executabil: release v1.9.40 (Situatii_ISJ_Buzau.exe, SHA-256 da4f374221f91471f2c45c1aafd6c3c0120e4dbb5de6e603d6f26f3254dcb8b4)
