@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.9.43 - 2026-10-07 11:04
+- Situații ISJ Buzău 1.9.43: Transport Școlar se deschide imediat pe baza de pe calculator (sesiunea se confirmă în fundal); autentificarea rămâne valabilă până la Deconectare; centralizarea Burse locală, pe ultima versiune primită; trimiterea burselor nu mai blochează fereastra; lista SIIIR județeană în fereastra ISJ; protecția datelor de autentificare.
+- Executabil: release v1.9.43 (Situatii_ISJ_Buzau.exe, SHA-256 2080aa202c295dc20b09cf628b013bb9f10477f93793e81253d30ca119dc0c26)
+
 ## v1.9.42 - 2026-10-07 06:35
 - Burse complet: Introducere burse, Trimitere burse la ISJ (sesiuni de upload, reluare automată când serviciul nu răspunde), Rapoarte burse (Excel și PDF), backup Burse separat în Setări; Admin → Burse: lista completă, centralizare unități, tipuri de burse, cu preluarea lunii precedente. Server @23.
 - Executabil: release v1.9.42 (Situatii_ISJ_Buzau.exe, SHA-256 a57ea6da7d04f58bb27b0828e5389b0bf97682caa073a337d7e492a049a42f0c)
