@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.9.42 - 2026-10-07 06:35
+- Burse complet: Introducere burse, Trimitere burse la ISJ (sesiuni de upload, reluare automată când serviciul nu răspunde), Rapoarte burse (Excel și PDF), backup Burse separat în Setări; Admin → Burse: lista completă, centralizare unități, tipuri de burse, cu preluarea lunii precedente. Server @23.
+- Executabil: release v1.9.42 (Situatii_ISJ_Buzau.exe, SHA-256 a57ea6da7d04f58bb27b0828e5389b0bf97682caa073a337d7e492a049a42f0c)
+
 ## v1.9.41 - 2026-10-06 21:38
 - Modulul Burse (lângă Transport Școlar) cu meniul Burse → Tip bursă: tipurile de bursă preluate din tabelul ISJ și păstrate în baza de date. În SIIIR, butonul 
 - Executabil: release v1.9.41 (Situatii_ISJ_Buzau.exe, SHA-256 1d780dc5aa48252abb537833dddce714964e6141ac41e68033c7ee5d56f0f57c)
