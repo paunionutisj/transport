@@ -1,13 +1,13 @@
 {
-  "latest": "1.10.16",
-  "updated": "2026-11-04 12:11",
+  "latest": "1.10.17",
+  "updated": "2026-11-04 20:29",
   "history": [
     {
-      "version": "1.10.16",
-      "date": "2026-11-04 12:11",
+      "version": "1.10.17",
+      "date": "2026-11-04 20:29",
       "files": 2,
-      "note": "Versiunea 1.10.16: autentificarea păstrată pe fiecare unitate și trimiterea Contabilitate mai rapidă. Autentificarea în Contabilitate se păstrează pe calculator pentru fiecare unitate, separat de Transport și de celelalte unități, până la Deconectare; o logare închide doar sesiunea aceleiași unități de pe alt calculator (serviciul ISJ v43). Trimiterea unei situații Contabilitate se face în două cereri la serviciul ISJ în loc de patru: încărcările fișierelor se deschid la începerea trimiterii și se confirmă la finalizare.",
-      "folder": "releases/v1.10.16"
+      "note": "Versiunea 1.10.17: o singură autentificare pentru toate modulele unității. O autentificare Google pe unitate și calculator servește Transport Școlar, Burse și Contabilitate până la Deconectare; celelalte module nu mai cer logare (serviciul ISJ v44). Un modul al unității se folosește pe un singur calculator: deschis pe alt calculator, se închide aici, cu mesaj, iar celelalte module rămân autentificate; „Autentificare” îl preia înapoi fără Google. „Trimite” cere singur autentificarea, dacă lipsește, apoi trimite; Deconectarea închide toate modulele unității pe acest calculator.",
+      "folder": "releases/v1.10.17"
     }
   ]
 }
