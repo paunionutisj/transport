@@ -1,7 +1,8 @@
 # Changelog
 
-## v1.10.16 - 2026-11-04 12:11
-- Versiunea 1.10.16: autentificarea păstrată pe fiecare unitate și trimiterea Contabilitate mai rapidă.
-- Autentificarea în Contabilitate se păstrează pe calculator pentru fiecare unitate, separat de Transport și de celelalte unități, până la Deconectare; o logare închide doar sesiunea aceleiași unități de pe alt calculator (serviciul ISJ v43).
-- Trimiterea unei situații Contabilitate se face în două cereri la serviciul ISJ în loc de patru: încărcările fișierelor se deschid la începerea trimiterii și se confirmă la finalizare.
-- Executabil: release v1.10.16 (Situatii_ISJ_Buzau.exe, SHA-256 67f08e9918381060712aa320d056370930e6103660dab5b5b0763a1b2cff089a)
+## v1.10.17 - 2026-11-04 20:29
+- Versiunea 1.10.17: o singură autentificare pentru toate modulele unității.
+- O autentificare Google pe unitate și calculator servește Transport Școlar, Burse și Contabilitate până la Deconectare; celelalte module nu mai cer logare (serviciul ISJ v44).
+- Un modul al unității se folosește pe un singur calculator: deschis pe alt calculator, se închide aici, cu mesaj, iar celelalte module rămân autentificate; „Autentificare” îl preia înapoi fără Google.
+- „Trimite” cere singur autentificarea, dacă lipsește, apoi trimite; Deconectarea închide toate modulele unității pe acest calculator.
+- Executabil: release v1.10.17 (Situatii_ISJ_Buzau.exe, SHA-256 fd3f47c564c2defea2dfffc432ff150c3b8d6b96d9c23729f24cb3290d4598e5)
