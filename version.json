@@ -1,55 +1,13 @@
 {
-  "latest": "1.9.43",
-  "updated": "2026-10-07 11:04",
+  "latest": "1.10.16",
+  "updated": "2026-11-04 12:11",
   "history": [
     {
-      "version": "1.0.0",
-      "date": "2026-10-06 14:47",
-      "files": 0,
-      "note": "versiune initiala",
-      "folder": "(root)"
-    },
-    {
-      "version": "1.9.38",
-      "date": "2026-10-06 17:43",
+      "version": "1.10.16",
+      "date": "2026-11-04 12:11",
       "files": 2,
-      "note": "Situații ISJ Buzău 1.9.38: verificarea versiunii întâi pe GitHub, apoi în Drive; documentele lunare se trimit direct în Google Drive; butoanele SIIIR și Setări pe ecranul de start.",
-      "folder": "releases/v1.9.38"
-    },
-    {
-      "version": "1.9.39",
-      "date": "2026-10-06 18:45",
-      "files": 2,
-      "note": "Situații ISJ Buzău 1.9.39: SIIIR și Setări deschid doar pagina lor, fără verificarea sesiunii; numai Transport Școlar verifică sesiunea; câmpuri noi din SIIIR (denumire unitate, tip formațiune, nume clasă), doar situație școlară deschisă; verificarea versiunii mai rapidă (Drive doar ca rezervă).",
-      "folder": "releases/v1.9.39"
-    },
-    {
-      "version": "1.9.40",
-      "date": "2026-10-06 20:00",
-      "files": 2,
-      "note": "Meniul Transport Școlar păstrează numai grupul Transport Județean (Elevi și Setări se deschid din butoanele SIIIR și Setări). Bara de jos arată unde se caută actualizarea: pe GitHub sau, dacă GitHub nu răspunde, în Google Drive.",
-      "folder": "releases/v1.9.40"
-    },
-    {
-      "version": "1.9.41",
-      "date": "2026-10-06 21:38",
-      "files": 2,
-      "note": "Modulul Burse (lângă Transport Școlar) cu meniul Burse → Tip bursă: tipurile de bursă preluate din tabelul ISJ și păstrate în baza de date. În SIIIR, butonul ",
-      "folder": "releases/v1.9.41"
-    },
-    {
-      "version": "1.9.42",
-      "date": "2026-10-07 06:35",
-      "files": 2,
-      "note": "Burse complet: Introducere burse, Trimitere burse la ISJ (sesiuni de upload, reluare automată când serviciul nu răspunde), Rapoarte burse (Excel și PDF), backup Burse separat în Setări; Admin → Burse: lista completă, centralizare unități, tipuri de burse, cu preluarea lunii precedente. Server @23.",
-      "folder": "releases/v1.9.42"
-    },
-    {
-      "version": "1.9.43",
-      "date": "2026-10-07 11:04",
-      "files": 2,
-      "note": "Situații ISJ Buzău 1.9.43: Transport Școlar se deschide imediat pe baza de pe calculator (sesiunea se confirmă în fundal); autentificarea rămâne valabilă până la Deconectare; centralizarea Burse locală, pe ultima versiune primită; trimiterea burselor nu mai blochează fereastra; lista SIIIR județeană în fereastra ISJ; protecția datelor de autentificare.",
-      "folder": "releases/v1.9.43"
+      "note": "Versiunea 1.10.16: autentificarea păstrată pe fiecare unitate și trimiterea Contabilitate mai rapidă. Autentificarea în Contabilitate se păstrează pe calculator pentru fiecare unitate, separat de Transport și de celelalte unități, până la Deconectare; o logare închide doar sesiunea aceleiași unități de pe alt calculator (serviciul ISJ v43). Trimiterea unei situații Contabilitate se face în două cereri la serviciul ISJ în loc de patru: încărcările fișierelor se deschid la începerea trimiterii și se confirmă la finalizare.",
+      "folder": "releases/v1.10.16"
     }
   ]
 }
