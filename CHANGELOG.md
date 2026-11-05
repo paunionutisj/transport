@@ -1,9 +1,10 @@
 # Changelog
 
-## v1.10.18 - 2026-11-05 05:02
-- Versiunea 1.10.18: centralizările administratorului se încarcă mai repede.
-- Decontare și Necesar burse: categoriile trimiterilor noi vin calculate de serviciul ISJ (v46), fără descărcarea bazelor unităților.
-- „Actualizează centralizarea” pornește imediat; documentele lunii se copiază în fundal cât aplicația este deschisă: întâi bazele și Excelurile (câte 6 unități), apoi Anexa 2a și scanurile (câte 4). Copierea așteaptă cât lucrați și continuă după repornire.
-- Exceluri centralizate, Preț mediu pe km, Burse și Vouchere citesc câte 6 unități deodată; ce nu s-a putut aduce se reia pe rând.
+## v1.10.19 - 2026-11-05 07:30
+- Versiunea 1.10.19: tabelele rapoartelor administratorului.
+- Orice tabel de raport din Centralizare ISJ are mereu barele de derulare; pătrățelul dintre ele îl deschide pe tot ecranul (se închide cu X sau Esc), unde rândurile, coloanele și celulele se selectează împreună, ca în Excel.
+- Rândurile selectate (Ctrl/Shift) se copiază cu Ctrl+C sau din clic dreapta, gata de lipit în Excel.
+- Contabilitate: sumele în lei întregi și aliniate la dreapta, inclusiv în exporturi; coloana unității nu mai împarte denumirile pe multe rânduri.
+- Contabilitate: centralizarea unităților importate fără scan își primește categoriile odată cu raportul (serviciul ISJ v47), fără citirea fiecărei unități.
 - Pentru școli nu se schimbă nimic.
-- Executabil: release v1.10.18 (Situatii_ISJ_Buzau.exe, SHA-256 da016a464b670d8536ddcd78ed898bf35cc4b2ed42f445a4e3c3e4b86de1375c)
+- Executabil: release v1.10.19 (Situatii_ISJ_Buzau.exe, SHA-256 521132a2b187b5280f1d1e9405db299cf458e4b1e3d2df72b46d94c0fcadeba1)
