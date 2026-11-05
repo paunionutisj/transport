@@ -1,8 +1,9 @@
 # Changelog
 
-## v1.10.17 - 2026-11-04 20:29
-- Versiunea 1.10.17: o singură autentificare pentru toate modulele unității.
-- O autentificare Google pe unitate și calculator servește Transport Școlar, Burse și Contabilitate până la Deconectare; celelalte module nu mai cer logare (serviciul ISJ v44).
-- Un modul al unității se folosește pe un singur calculator: deschis pe alt calculator, se închide aici, cu mesaj, iar celelalte module rămân autentificate; „Autentificare” îl preia înapoi fără Google.
-- „Trimite” cere singur autentificarea, dacă lipsește, apoi trimite; Deconectarea închide toate modulele unității pe acest calculator.
-- Executabil: release v1.10.17 (Situatii_ISJ_Buzau.exe, SHA-256 fd3f47c564c2defea2dfffc432ff150c3b8d6b96d9c23729f24cb3290d4598e5)
+## v1.10.18 - 2026-11-05 05:02
+- Versiunea 1.10.18: centralizările administratorului se încarcă mai repede.
+- Decontare și Necesar burse: categoriile trimiterilor noi vin calculate de serviciul ISJ (v46), fără descărcarea bazelor unităților.
+- „Actualizează centralizarea” pornește imediat; documentele lunii se copiază în fundal cât aplicația este deschisă: întâi bazele și Excelurile (câte 6 unități), apoi Anexa 2a și scanurile (câte 4). Copierea așteaptă cât lucrați și continuă după repornire.
+- Exceluri centralizate, Preț mediu pe km, Burse și Vouchere citesc câte 6 unități deodată; ce nu s-a putut aduce se reia pe rând.
+- Pentru școli nu se schimbă nimic.
+- Executabil: release v1.10.18 (Situatii_ISJ_Buzau.exe, SHA-256 da016a464b670d8536ddcd78ed898bf35cc4b2ed42f445a4e3c3e4b86de1375c)
